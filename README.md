@@ -12,14 +12,14 @@ window.io = require('socket.io-client')
 import Multimirror from 'multimirror-js';
 
 
-	window.Echo = new Echo({
-		broadcaster: Multimirror,
-		host: 'http://localhost:6001'
-	});
+window.Echo = new Echo({
+	broadcaster: Multimirror,
+	host: 'http://socket.kamal.guru'
+});
 
 
-	window.Echo.private('test-channel')
-            .listen('TestEvent', (e) => {
-		console.log('private-channel', e)
-        })	  
+window.Echo.private('test-channel')
+		.listen('TestEvent', (e) => {
+	console.log('private-channel', e)
+	})	  
 ```
