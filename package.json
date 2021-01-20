@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/albatarnik/multimirror-js"
+    "url": "git+https://github.com/albatarnik/multimirror-js"
   },
   "keywords": [
     "echo",
@@ -29,9 +29,9 @@
   "author": "Kamal Albatarni",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/albatarnik/multimirror-js/-/issues"
+    "url": "https://github.com/albatarnik/multimirror-js/issues"
   },
-  "homepage": "https://github.com/larasocket/larasocket-js#readme",
+  "homepage": "https://github.com/albatarnik/multimirror-js/blob/master/README.md",
   "devDependencies": {
     "@types/jest": "^26.0.0",
     "jest": "^26.0.1",
